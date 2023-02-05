@@ -10,6 +10,11 @@ class CoinCubit extends Cubit<CoinState> {
   CoinCubit() : super(InitState());
 
   static CoinCubit get(context) => BlocProvider.of(context);
+
+  /*
+  Look at A Json File From Assets Folder
+   */
+
 // CurrentModel?currentModel;
   DataModel? dataModel;
   void getAllData() {
